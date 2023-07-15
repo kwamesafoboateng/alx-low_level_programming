@@ -1,14 +1,17 @@
 #include <stdio.h>
 /**
  * main - A program that prints the alphabet in lowercase
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
 	char a;
+
 	a = 'a';
+
 	while
-		(a <= 'z') {
+		(a <= 'z')
+		{
 			putchar(a);
 			a++;
 		}
