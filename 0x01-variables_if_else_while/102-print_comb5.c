@@ -13,11 +13,11 @@ int main(void)
 			{
 				if (a < b)
 				{
-					putchar((a / 10) + 24);
-					putchar((a % 10) + 24);
+					putchar((a / 10) + 48);
+					putchar((a % 10) + 48);
 					putchar(' ');
-					putchar((b / 10) + 24);
-					putchar((a % 10) + 24);
+					putchar((b / 10) + 48);
+					putchar((a % 10) + 48);
 					if (a != 98 || b != 99)
 					{
 						putchar(',');
