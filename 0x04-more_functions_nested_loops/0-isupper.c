@@ -8,9 +8,10 @@
 
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'B')
+	if (c <= 'A' && c <= 'B')
 	{
 		return (1);
+		_putchar('\n');
 	}
 	else
 	{
