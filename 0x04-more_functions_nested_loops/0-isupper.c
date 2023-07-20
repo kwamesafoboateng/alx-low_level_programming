@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _isupper - checks for upper case character
  * @c: Parameter checker
