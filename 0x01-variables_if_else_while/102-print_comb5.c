@@ -13,20 +13,20 @@ int main(void)
 			{
 				if (a < b)
 				{
-					putchar((a / 10) + 48);
-					putchar((a % 10) + 48);
+					putchar((a / 10) + 'a');
+					putchar((a % 10) + 'a');
 					putchar(' ');
-					putchar((b / 10) + 48);
-					putchar((a % 10) + 48);
+					putchar((b / 10) + 'a');
+					putchar((a % 10) + 'a');
 					if (a != 98 || b != 99)
 					{
 						putchar(',');
 						putchar(' ');
+						putchar('\n');
 					}
 				}
 			}
 		}
 	}
-		putchar('\n');
 		return (0);
 }
